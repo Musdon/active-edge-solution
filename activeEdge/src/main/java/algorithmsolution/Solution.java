@@ -27,7 +27,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] arr = {1,3,6,4,1,2};
         int[] secondArr = {5, -1, -3};
-        //first non occuring integer should be five and one
+        //first non occuring integer in both sample arrays should be five and one
         System.out.println(smallestNonOccuringInteger(arr));
         System.out.println(smallestNonOccuringInteger(secondArr));
     }
